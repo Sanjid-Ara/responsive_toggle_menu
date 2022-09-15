@@ -1,0 +1,42 @@
+.menu_bar{
+    width: 90%;
+    height: 100px;
+    /* padding-top: 40px; */
+    margin: auto;
+    /* background-color: darkblue; */
+    position: relative;
+}
+.toggle{
+    background-color: gainsboro;
+    border: none;
+    padding: 10px;
+    float: right;
+    margin-top: 25px;
+    display: none;
+}
+.toggle div{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px;
+}
+.menu_list{
+    width: 55%;
+    /* background-color: olivedrab; */
+    position: absolute;
+    top: 20px;
+    left: 280px;
+    padding: 20px 0px;
+    /* display: none; */
+}
+.menu_list a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+    transition: .3s;
+    margin-left: 20px;
+}
+.menu_list a:hover{
+    background-color: gainsboro;
+    color: black;
+}
